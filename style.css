@@ -1,0 +1,86 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background-color: rgb(29, 30, 44);
+    color: rgb(247, 235, 236);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #header {
+    margin-top: 5vh;
+    color: rgb(247, 235, 236);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+  }
+  
+  #header div {
+    justify-content: center;
+  }
+  
+  #header>div>h1 {
+    font-size: 50px;
+    margin-bottom:0px;
+  }
+  
+  #header * {
+    /*outline: 2px solid red;*/
+  }
+  
+  #header>div>p {
+    text-align: center;
+  }
+  
+  
+  
+  #settings{
+    display:flex;
+    justify-content: center;
+    margin-left:13vw;
+    margin-right:13vw;
+    margin-top:5vh;
+  }
+  
+  #settings > *{
+    flex:1;
+    margin-right:2vw;
+    text-align: center;
+    border-radius:25px;
+  }
+  
+  .buttons button{
+    font-size:23px;
+    border-radius:20px;
+    background-color:rgb(172, 159, 187);
+    border:0px;
+  }
+  
+  .mode {
+    background-color: rgb(89, 101, 111);
+  }
+  
+  #canvas{
+    outline:2px solid red;
+    display: flex;
+    margin-top:4em;
+    margin-left:12vw;
+    margin-right:15vw;
+    width:72vw;
+    height:80vh;
+
+    background-color: rgb(89, 101, 111);
+    border-radius: 15px;
+    flex-wrap:wrap;
+  }
+  
+  #canvas > div {
+    width:10vw;
+    height:10vw;
+    background-color: rgb(172, 159, 187);
+    border:2px solid black;
+  }
