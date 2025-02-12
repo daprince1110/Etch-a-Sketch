@@ -69,10 +69,8 @@ html {
     margin-top:4em;
     margin-left:12vw;
     margin-right:15vw;
-    /*width:72vw;
-    height:80vh;*/
-    width:500px;
-    height:500px;
+    width:72vw;
+    height:72vw;
 
     background-color: rgb(89, 101, 111);
     border-radius: 15px;
