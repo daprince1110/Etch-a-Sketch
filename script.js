@@ -61,4 +61,5 @@ range.addEventListener('change', function(){
 
 document.querySelector('#clear').addEventListener('click', function(){
     clearCanvas()
+    generateGrid(range.value)
 })
