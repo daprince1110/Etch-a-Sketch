@@ -65,9 +65,6 @@ html {
   }
   
   #canvas{
-    display:flex;
-    flex-wrap: wrap;
-    outline:2px solid red;
     margin-top:4em;
     margin-left:12vw;
     margin-right:15vw;
@@ -78,10 +75,13 @@ html {
     border-radius: 15px;
   }
   
-  #canvas > div {
-    flex:0,0,auto;
-   /* width:10vw;
-    height:10vw;*/
-    background-color: rgb(172, 159, 187);
-    border:2px solid black;
+  #canvas > div{
+    display:flex;
+  }
+  #canvas > div > div {
+    flex:1;
+    width:10vw;
+    height:10vw;
+    background-color:white;
+    border:1px solid black;
   }
