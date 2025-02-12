@@ -3,7 +3,7 @@ let canvas = document.querySelector("#canvas")
 
 
 const border_size = 2
-const canvas_size = [72-border_size,80-border_size]
+const canvas_size = [500-border_size,500-border_size]
 
 generateGrid(2);
 
@@ -24,8 +24,8 @@ function generateGrid(size){
 
         for (j = 0; j < size; j++){
             node = document.createElement("div")
-            node.style.width = `${canvas_size[0]/size}vw`
-            node.style.height = `${canvas_size[1]/size}vh`
+            node.style.width = `${canvas_size[0]/size}px`
+            node.style.height = `${canvas_size[1]/size}px`
 
             element.appendChild(node)
         }
