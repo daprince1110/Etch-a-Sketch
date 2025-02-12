@@ -22,7 +22,7 @@ function generateGrid(size){
         element.style.backgroundColor = "white"
         canvas.appendChild(element)
 
-        for (j = 0; j < range.value; j++){
+        for (j = 0; j < size; j++){
             node = document.createElement("div")
             node.style.width = `${canvas_size[0]/size}vw`
             node.style.height = `${canvas_size[1]/size}vh`
@@ -47,7 +47,6 @@ function clearCanvas(size){
         canvas.removeChild(children[i])
     }
 
-    generateGrid(range.value)
 }
 
 range.addEventListener('change', function(){
